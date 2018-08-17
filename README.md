@@ -15,9 +15,8 @@ Options:
 ### Installation
 git clone git@github.com:dr-r3d/betfair-xls2csv.git
 
-cd betfair-xls2csv
-
-npm install && npm run build
-chmod +x app.js
-npm link
+cd betfair-xls2csv  
+npm install && npm run build  
+chmod +x app.js  
+npm link  
 
