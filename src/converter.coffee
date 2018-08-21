@@ -24,7 +24,6 @@ convertToCSV = (filepath, date)->
     if results.error?
       Error.print results.error
     else
-      console.log results.data
       createCSV results.data
 
 getDataRows = (filepath)->

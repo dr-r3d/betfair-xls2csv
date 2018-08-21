@@ -8,12 +8,12 @@
   "description": "CLI application to convert betfair races details in excel to csv",
   "main": "app.js",
   "scripts": {
-    "build": "coffee --output ./ --watch --compile --bare --no-header src/*.coffee"
+    "build": "coffee --output ./ --compile --bare --no-header src/"
   },
   "author": "abhishek anand",
   "license": "ISC",
   "dependencies": {
-    "coffee-script": "^1.12.7",
+    "coffeescript": "^1.12.7",
     "commander": "^2.17.1",
     "xlsx": "^0.13.3"
   }
